@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-container">
+        <h1>Mutral fund investment calculator</h1>
+
+        <div class="investing-method">
+          <div class="sip">
+            <label for="sip">SIP</label>
+            <input
+              class="sip-box"
+              type="checkbox"
+              checked
+              name="checked"
+              value="SIP"
+            />
+          </div>
+
+          <div class="lumpsum">
+            <label for="lumpsum">LUMPSUM</label>
+            <input class="" type="checkbox" value="LUMPSUM" name="checked" />
+          </div>
+        </div>
+
+        <div class="cal-bg">
+          <form action="">
+            <div class="input-1">
+              <label for="investment" class="title-1">Monthly investment</label>
+              <input class="option-box" type="text" id="investment" data-monthly-investment/>
+            </div>
+
+            <div class="input-2">
+              <label for="years" class="title-1">Total years</label>
+              <input class="option-box" type="number" id="years" data-years />
+            </div>
+
+            <div class="input-3">
+              <label for="total-return" class="title-1">Expected rate of return</label>
+              <input class="option-box" type="text" id="total-return" data-return-percent/>
+            </div>
+
+            <div>
+              <button id="button" data-button>Calculate</button>
+            </div>
+
+            <div>
+              <h4> Total Amount Invested: <p id="total-invested">0</p></h4>
+              <h4> Total Value: <p id="future-value">0</p></h4>
+              <h4> wealth you gained: <p id="wealth-gained">0</p></h4>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="javaScript/script.js"></script>
+  </body>
+</html>

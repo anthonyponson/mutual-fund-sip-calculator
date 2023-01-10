@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Rubik:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10rem 0;
+}
+.calculator-container{
+    background-color: rgb(211, 211, 211);
+    padding: 5rem;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.investing-method{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sip{
+    margin: 1rem;
+}
+
+.lumpsum{
+    margin: 1rem;
+}
+
+
+.cal-bg{
+  display: flex;
+}
+
+form{
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.input-1,.input-2,.input-3{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title-1{
+    padding: 1rem 0;
+}
+
+.option-box{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    background-color: #fff;
+    border: none;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100vh;
+  }
+  
+  body {
+    
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+  }
+   */
+  
+  
+  /* Author: Michael_B */
+/*   
+  .container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  #p,
+  #roi,
+  #result,
+  #t {
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 10px 10px;
+    width: 100%;
+  }
+  
+  form {
+    width: 300px;
+  }
+  
+  button {
+    background-color: black;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+   */
